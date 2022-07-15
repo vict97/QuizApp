@@ -1,0 +1,75 @@
+body {
+    background: linear-gradient(0deg, #85F6B8 100%, #8ED9EBD9 100%);
+    color: #555555;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 500px;
+    padding: 15px;
+    height: 450px;
+    margin: auto;
+    background-color: white;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.form-signin form div {
+    margin: 30px;
+}
+
+.form-signin form div input {
+    display: block;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    height: 40px;
+    width: 100%;
+    margin: auto;
+    color: #555555;
+}
+
+.form-signin form div input,
+label {
+    margin-top: 10px;
+}
+
+.error span {
+    visibility: visible;
+    opacity: 1;
+    color: red;
+}
+
+.submit {
+    background-color: green;
+    box-shadow: 5px 5px 5px grey;
+    border: none;
+    height: 50px;
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 15px;
+    width: 200px;
+    font-size: large;
+    cursor: pointer;
+}
+
+
+/**********************************************************
+Media query mobile
+**********************************************************/
+
+@media screen and (max-width: 500px) {
+    .form-signin {
+        width: 100%;
+        max-width: 300px;
+        padding: 10px;
+        height: 450px;
+        margin: auto;
+        background-color: white;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .submit {
+        width: 150px;
+    }
+}
